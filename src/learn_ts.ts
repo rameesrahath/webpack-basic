@@ -245,6 +245,29 @@ console.log(numArray);
 let stringArray1 = getArrayGen<string>(['a','b','c']);
 console.log(stringArray1);
 
+//Abstract class
+abstract class Base {
+    abstract getName(): string;
+   
+    printName() {
+      console.log("Hello, " + this.getName());
+    }
+  }
+   
+  //const b = new Base();
+//An absract class cannot be instansiated
+class Derived extends Base {
+    getName() {
+      return "world";
+    }
+  }
+   
+  const d = new Derived();
+  d.printName();
+
+
+
 }
+//this can be imported
 export const a=1;
 export default learnts;
