@@ -20,7 +20,7 @@
   "homepage": "https://github.com/rameesrahath/webpack-basic#readme",
   "devDependencies": {
     "@types/lodash": "^4.14.194",
-    "css-loader": "^6.7.3",
+    "css-loader": "^7.0.0",
     "style-loader": "^3.3.2",
     "ts-loader": "^9.4.2",
     "typescript": "^5.0.4",
